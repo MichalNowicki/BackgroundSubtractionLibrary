@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\package_analysis">
+      <UniqueIdentifier>{39537490-9980-42aa-a7f7-0554dc50cfef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs">
+      <UniqueIdentifier>{c12a9435-fe74-43b3-b021-2a597dce8470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\ae">
+      <UniqueIdentifier>{33428049-d543-45c8-b516-a05f37ba3350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\av">
+      <UniqueIdentifier>{a1b77fb2-3ed2-48a1-a10d-09e8ba7577ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\ck">
+      <UniqueIdentifier>{40348834-8bcf-454c-bf2d-b46583a78953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\db">
+      <UniqueIdentifier>{14d0df39-abfd-40d2-b1c2-f90d48b0ac9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\dp">
+      <UniqueIdentifier>{11bf5b28-077c-495e-b4ee-0ff07b415dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\jmo">
+      <UniqueIdentifier>{36652bee-650c-44a1-903a-b01052761504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\lb">
+      <UniqueIdentifier>{836b9bdf-10d8-4d2b-a146-5457f6539d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\my">
+      <UniqueIdentifier>{30d4f835-fa03-4ad6-bc19-ab9972b2a97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\pt">
+      <UniqueIdentifier>{c4d6e8b4-e9a4-46b4-b3c8-569e0f8c97c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\package_bgs\tb">
+      <UniqueIdentifier>{c2eda57b-22df-4477-879d-e70aa6cb7814}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_analysis\ForegroundMaskAnalysis.cpp">
+      <Filter>Header Files\package_analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ae\KDE.cpp">
+      <Filter>Header Files\package_bgs\ae</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ae\KernelTable.cpp">
+      <Filter>Header Files\package_bgs\ae</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ae\NPBGmodel.cpp">
+      <Filter>Header Files\package_bgs\ae</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ae\NPBGSubtractor.cpp">
+      <Filter>Header Files\package_bgs\ae</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\av\TBackground.cpp">
+      <Filter>Header Files\package_bgs\av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\av\TBackgroundVuMeter.cpp">
+      <Filter>Header Files\package_bgs\av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\av\VuMeter.cpp">
+      <Filter>Header Files\package_bgs\av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ck\graph.cpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ck\LbpMrf.cpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ck\maxflow.cpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ck\MEDefs.cpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ck\MEHistogram.cpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ck\MEImage.cpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\ck\MotionDetection.cpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\db\imbs.cpp">
+      <Filter>Header Files\package_bgs\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\db\IndependentMultimodalBGS.cpp">
+      <Filter>Header Files\package_bgs\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\AdaptiveMedianBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\DPAdaptiveMedianBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\DPEigenbackgroundBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\DPGrimsonGMMBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\DPMeanBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\DPPratiMediodBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\DPTextureBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\DPWrenGABGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\DPZivkovicAGMMBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\Eigenbackground.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\Error.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\GrimsonGMM.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\Image.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\MeanBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\PratiMediodBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\TextureBGS.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\WrenGA.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\dp\ZivkovicAGMM.cpp">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\jmo\blob.cpp">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\jmo\BlobExtraction.cpp">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\jmo\BlobResult.cpp">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\jmo\CMultiLayerBGS.cpp">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\jmo\LocalBinaryPattern.cpp">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\jmo\MultiLayerBGS.cpp">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\BGModel.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\BGModelFuzzyGauss.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\BGModelFuzzySom.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\BGModelGauss.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\BGModelMog.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\BGModelSom.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\LBAdaptiveSOM.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\LBFuzzyAdaptiveSOM.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\LBFuzzyGaussian.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\LBMixtureOfGaussians.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\lb\LBSimpleGaussian.cpp">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\my\MyBGS.cpp">
+      <Filter>Header Files\package_bgs\my</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\pt\PBAS.cpp">
+      <Filter>Header Files\package_bgs\pt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\pt\PixelBasedAdaptiveSegmenter.cpp">
+      <Filter>Header Files\package_bgs\pt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\FuzzyChoquetIntegral.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\FuzzySugenoIntegral.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\FuzzyUtils.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\MRF.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\PerformanceUtils.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\PixelUtils.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\T2FGMM.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\T2FGMM_UM.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\T2FGMM_UV.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\T2FMRF.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\T2FMRF_UM.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\tb\T2FMRF_UV.cpp">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\AdaptiveBackgroundLearning.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\AdaptiveSelectiveBackgroundLearning.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\FrameDifferenceBGS.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\GMG.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\MixtureOfGaussianV1BGS.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\MixtureOfGaussianV2BGS.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\StaticFrameDifferenceBGS.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\WeightedMovingMeanBGS.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\WeightedMovingVarianceBGS.cpp">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\package_analysis\ForegroundMaskAnalysis.h">
+      <Filter>Header Files\package_analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ae\KDE.h">
+      <Filter>Header Files\package_bgs\ae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ae\KernelTable.h">
+      <Filter>Header Files\package_bgs\ae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ae\NPBGmodel.h">
+      <Filter>Header Files\package_bgs\ae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ae\NPBGSubtractor.h">
+      <Filter>Header Files\package_bgs\ae</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\av\TBackground.h">
+      <Filter>Header Files\package_bgs\av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\av\TBackgroundVuMeter.h">
+      <Filter>Header Files\package_bgs\av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\av\VuMeter.h">
+      <Filter>Header Files\package_bgs\av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ck\block.h">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ck\graph.h">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ck\LbpMrf.h">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ck\MEDefs.hpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ck\MEHistogram.hpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ck\MEImage.hpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\ck\MotionDetection.hpp">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\db\imbs.hpp">
+      <Filter>Header Files\package_bgs\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\db\IndependentMultimodalBGS.h">
+      <Filter>Header Files\package_bgs\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\AdaptiveMedianBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\Bgs.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\BgsParams.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\DPAdaptiveMedianBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\DPEigenbackgroundBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\DPGrimsonGMMBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\DPMeanBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\DPPratiMediodBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\DPTextureBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\DPWrenGABGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\DPZivkovicAGMMBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\Eigenbackground.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\Error.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\GrimsonGMM.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\Image.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\MeanBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\PratiMediodBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\TextureBGS.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\WrenGA.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\dp\ZivkovicAGMM.h">
+      <Filter>Header Files\package_bgs\dp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\BackgroundSubtractionAPI.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\BGS.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\blob.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\BlobExtraction.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\BlobLibraryConfiguration.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\BlobResult.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\CMultiLayerBGS.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\LocalBinaryPattern.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\MultiLayerBGS.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\jmo\OpenCvDataConversion.h">
+      <Filter>Header Files\package_bgs\jmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\BGModel.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\BGModelFuzzyGauss.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\BGModelFuzzySom.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\BGModelGauss.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\BGModelMog.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\BGModelSom.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\LBAdaptiveSOM.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\LBFuzzyAdaptiveSOM.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\LBFuzzyGaussian.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\LBMixtureOfGaussians.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\LBSimpleGaussian.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\lb\Types.h">
+      <Filter>Header Files\package_bgs\lb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\my\MyBGS.h">
+      <Filter>Header Files\package_bgs\my</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\pt\PBAS.h">
+      <Filter>Header Files\package_bgs\pt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\pt\PixelBasedAdaptiveSegmenter.h">
+      <Filter>Header Files\package_bgs\pt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\FuzzyChoquetIntegral.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\FuzzySugenoIntegral.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\FuzzyUtils.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\MRF.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\PerformanceUtils.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\PixelUtils.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\T2FGMM.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\T2FGMM_UM.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\T2FGMM_UV.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\T2FMRF.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\T2FMRF_UM.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\tb\T2FMRF_UV.h">
+      <Filter>Header Files\package_bgs\tb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\AdaptiveBackgroundLearning.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\AdaptiveSelectiveBackgroundLearning.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\FrameDifferenceBGS.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\GMG.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\IBGS.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\MixtureOfGaussianV1BGS.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\MixtureOfGaussianV2BGS.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\StaticFrameDifferenceBGS.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\WeightedMovingMeanBGS.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\WeightedMovingVarianceBGS.h">
+      <Filter>Header Files\package_bgs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\package_bgs\ck\README.TXT">
+      <Filter>Header Files\package_bgs\ck</Filter>
+    </None>
+  </ItemGroup>
+</Project>
